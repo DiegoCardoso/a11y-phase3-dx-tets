@@ -4,7 +4,7 @@ package com.vaadin.dx.tests.views;
 import com.vaadin.dx.tests.components.appnav.AppNav;
 import com.vaadin.dx.tests.components.appnav.AppNavItem;
 import com.vaadin.dx.tests.views.arialabel.AriaLabelView;
-import com.vaadin.dx.tests.views.bordercontrast.BorderContrastView;
+import com.vaadin.dx.tests.views.bordercontrast.HighContrastView;
 import com.vaadin.flow.component.applayout.AppLayout;
 import com.vaadin.flow.component.applayout.DrawerToggle;
 import com.vaadin.flow.component.html.Footer;
@@ -56,7 +56,7 @@ public class MainLayout extends AppLayout {
 
         nav.addItem(new AppNavItem("Aria Label", AriaLabelView.class,
                 LineAwesomeIcon.ASSISTIVE_LISTENING_SYSTEMS_SOLID.create()));
-        nav.addItem(new AppNavItem("Border Contrast", BorderContrastView.class,
+        nav.addItem(new AppNavItem("High Contrast", HighContrastView.class,
                 LineAwesomeIcon.BORDER_STYLE_SOLID.create()));
 
         return nav;

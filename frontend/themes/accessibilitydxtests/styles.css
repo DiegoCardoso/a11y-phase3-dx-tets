@@ -1,1 +1,29 @@
 @import url('./main-layout.css');
+
+.field-wrapper {
+    width: auto !important;
+    border-radius: var(--lumo-border-radius-s);
+    padding: var(--lumo-space-xs) var(--lumo-space-s);
+    box-shadow: 0px 0px 1px 1px var(--lumo-secondary-text-color);
+    margin-block-start: 1em;
+}
+
+.field-wrapper label {
+    margin-block-start: -1em;
+    color: var(--lumo-secondary-text-color);
+    background-color: #FFF;
+    padding-inline: var(--lumo-space-xs);
+    font-weight: 500;
+}
+
+.contrast-border-samples {
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    width: 100%;
+    align-items: baseline;
+    row-gap: 1em;
+}
+
+.contrast-border-samples > span {
+    font-weight: 500;
+}
